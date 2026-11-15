@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LA FIGURA GYM · Modo Militar</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="lg" viewBox="0 0 40 40"><path d="M20 2l15 6v12c0 9-6 15-15 18C11 35 5 29 5 20V8z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M20 10l2.5 6h6l-5 4 2 6-5.500-3.800L14.500 26l2-6-5-4h6z" fill="currentColor"/></symbol>
+<symbol id="wi" viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.600 15L2 22l5.200-1.400A10 10 0 1012 2zm5.200 14.200c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 1.900c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.800.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></symbol>
+<symbol id="ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3zm5 3.500a4.500 4.500 0 110 9 4.500 4.500 0 010-9zm0 2a2.500 2.500 0 100 5 2.500 2.500 0 000-5zM17.300 5.800a1.100 1.100 0 110 2.200 1.100 1.100 0 010-2.200z"/></symbol></defs></svg>
+<nav><a class="logo" href="#inicio"><svg width="34" height="34" style="color:var(--y)"><use href="#lg"/></svg>LA FIGURA GYM</a><button id="bg" aria-label="Menú">☰</button>
+<ul id="mn"><li><a href="#inicio">Base</a></li><li><a href="#planes">Planes</a></li><li><a href="#spinning">Spinning</a></li><li><a href="#equipos">Equipos</a></li><li><a href="#calendario">Calendario</a></li><li><a href="#tienda">Tienda</a></li></ul></nav>
+<div id="mv">
+<section class="hero" id="inicio"><div><p class="tag">▸ Disciplina · Fuerza · Honor</p><h1>LA FIGURA<br>GYM</h1><p class="sub" style="margin:14px 0 22px;max-width:480px">Entrena como un soldado, supera tus límites. Información, planes, equipos y eventos de nuestra base de entrenamiento.</p><a class="btn" href="#planes">Ver planes</a> <a class="btn" href="#tienda">Ir a la tienda</a></div>
+<div><div class="g map"><svg viewBox="0 0 400 260" aria-label="Mapa animado de ubicación"><g stroke="#2e4a2e" fill="none"><circle cx="200" cy="130" r="40"/><circle cx="200" cy="130" r="80"/><circle cx="200" cy="130" r="120"/><path d="M0 130H400M200 0V260M60 20L340 240M340 20L60 240" stroke-dasharray="3 5"/><path d="M30 200Q120 150 170 190T330 170" stroke="#3b5f3b" stroke-width="2"/></g>
+<path class="sweep" d="M200 130L320 130A120 120 0 0 0 295 58z" fill="rgba(255,214,10,.25)"/>
+<circle class="pin" cx="250" cy="95" r="8" fill="none" stroke="#FFD60A" stroke-width="2"/><circle cx="250" cy="95" r="5" fill="#FFD60A"/>
+<text x="262" y="92" fill="#FFD60A" font-size="12" font-family="monospace">LA FIGURA GYM</text><text x="262" y="106" fill="#8a8a8a" font-size="10" font-family="monospace">Bauta, Artemisa, Cuba</text></svg>
+<div style="padding:10px 4px 0"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/La+Figura+Gym+Bauta+Artemisa+Cuba">Cómo llegar</a> <span class="sub">📍 Bauta, Artemisa, Cuba</span></div></div>
+<div class="ct"><a class="g" target="_blank" rel="noopener" href="https://wa.me/5356212889"><svg><use href="#wi"/></svg><span><b>WhatsApp</b><br>+53 5621 2889</span></a>
+<a class="g" target="_blank" rel="noopener" href="https://www.instagram.com/la_figura_gym?mdxt=NzdwYTA4ZWx3anhm"><svg><use href="#ig"/></svg><span><b>Instagram</b><br>@la_figura_gym</span></a></div></div></section>
+<section id="planes" class="rv"><h2>Planes y precios</h2><p class="sub">Precios DEMO, a confirmar por el gimnasio.</p><div class="grid" id="pl"></div></section>
+<section id="spinning" class="rv"><h2>Spinning</h2><p class="sub">Las plazas son limitadas: consulta disponibilidad antes de venir.</p><div class="grid" id="sp"></div></section>
+<section id="equipos" class="rv"><h2>Entrenadores y equipos</h2><p class="sub">Tres equipos de tres entrenadores cada uno. Entra para ver perfiles, precios y horarios.</p><div class="grid" id="es"></div><br><a class="btn" href="#entrenadores">Ver entrenadores y equipos →</a></section>
+<section id="calendario" class="rv"><h2>Calendario</h2><p class="sub">Eventos y competiciones entre equipos.</p><div class="grid"><div class="g cal"><div class="ch"><button class="btn" id="pv">‹</button><b id="mt"></b><button class="btn" id="nx">›</button></div><div class="cg" id="cg"></div></div><div class="g card" id="ed"></div></div></section>
+<section id="tiendaCta" class="rv"><div class="g card" style="text-align:center"><h2 style="margin-bottom:10px">Tienda de campaña</h2><p class="sub">Catálogo por categorías con carrito para reservar tu compra.</p><a class="btn" href="#tienda">Entrar a la tienda →</a></div></section></div>
+<div id="tv"><section style="padding-top:100px"><a class="btn" href="#inicio">← Volver al gimnasio</a><h2 style="margin-top:20px">Tienda</h2><p class="sub">Productos DEMO. Reserva tu pedido por WhatsApp.</p>
+<input id="q" placeholder="Buscar producto…" aria-label="Buscar"><div class="chips" id="cs"></div>
+<div class="g card" id="ad" hidden style="margin-bottom:18px"><h3>Administración del catálogo</h3><p class="sub">Solo la ves tú como administrador. Los cambios se reflejan al instante en la tienda.</p><div class="adg"><input id="an" placeholder="Nombre"><input id="ac" placeholder="Categoría"><input id="ap" type="number" min="0" step="any" placeholder="Precio"><input id="ad2" placeholder="Descripción"><input id="af" type="file" accept="image/*"></div><button class="btn" id="aa">Añadir producto</button> <button class="btn" id="as">Cargar ejemplos</button><div id="al" style="margin-top:12px"></div></div>
+<div class="shop"><div class="grid" id="pr"></div><aside class="g card" style="position:sticky;top:84px"><h3>Reserva</h3><div id="ct" style="margin:10px 0"></div><b>Total: <span class="price" id="tt">0</span></b><br><br><a class="btn" id="co" href="#tienda">Reservar por WhatsApp</a></aside></div></section></div>
+<div id="ev"><section style="padding-top:100px"><a class="btn" href="#inicio">← Volver al gimnasio</a><h2 style="margin-top:20px">Entrenadores y equipos</h2><p class="sub">Datos DEMO: se reemplazan con los reales.</p><div id="eq"></div></section></div>
+<footer>© LA FIGURA GYM · <a style="color:var(--y)" href="https://www.instagram.com/la_figura_gym?mdxt=NzdwYTA4ZWx3anhm" target="_blank" rel="noopener">Instagram</a></footer>
+<a id="wa" href="https://wa.me/5356212889" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><use href="#wi"/></svg></a>
+</body></html>
